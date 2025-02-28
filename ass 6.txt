@@ -1,0 +1,137 @@
+//------------------assingnment----------------//
+
+
+
+
+// let pro = prompt("Enter any positive no")
+// document.write(pro:${pro}<br> round off valu:${pro}<br>floor value:${pro}<br>Ceil value:${pro})
+
+
+// let pro = prompt("Enter any positive no")
+// document.write(pro:${pro}<br> round off valu:${pro}<br>floor value:${pro}<br>Ceil value:${pro})
+
+
+// let pro = prompt("Enter any positive no")
+// document.write(pro:${pro}<br> round off valu:${Math.round(pro)}<br>floor value:${Math.floor(pro)}<br>Ceil value:${Math.ceil(pro)})
+
+// let pro = prompt("Enter any positive no")
+// document.write(pro:${pro}<br> round off valu:${Math.round(pro)}<br>floor value:${Math.floor(pro)}<br>Ceil value:${Math.ceil(pro)})
+
+// let pro = prompt("Enter any nagitive no")
+// document.write(The Absolute Value of ${pro} is ${Math.abs(pro)})
+
+// let dice = Math.ceil(Math.random()*6)
+// document.write(Random Dice Value is ${dice})
+
+
+// let no = Math.ceil(Math.random()*2)
+// let tos = "Tile"
+//  if(no === 1){
+//     tos = "head"
+// }
+// document.write(${tos})
+
+// let dice = Math.ceil(Math.random()*100)
+// document.write(Random Between 1 and 100: ${dice})
+
+// let wei = +prompt("Enter WEight")
+// document.write(${wei}<br>${wei}kgs<br>${wei}.2kgs<br>${wei}.2kilogramkgs)
+
+// let num = Math.ceil(Math.random()*2)
+// let pro = +prompt("Enter any Number")
+// if(num === pro){
+//     document.write("You are correct")
+// }else{
+//     document.write("You are wrong")
+// }
+
+// let date = new Date()
+// document.write(${date})
+
+// let date = new Date()
+// let month = ["jan","fab","march","april","may","june","july","agust","september","november","december"]
+// let fin = month[date.getMonth()]
+// document.write(curent Month:${fin})
+
+// let date = new Date()
+// let month = ["san","mon","tus","wed","thus","friday","staurday"]
+// let fin = month[date.getDay()]
+// document.write(alert(Today is:${fin}))
+
+// let date = new Date()
+// let month = ["study","gym","travel","smooking","sleeping","fan","palying"]
+// let fin = month[date.getDay()]
+// document.write(alert(Its a ${fin} Day))
+
+// let date = new Date().getDate()
+
+// if(date <= 15){
+//     document.write(First fifteen days of the month)
+// }else{
+//     document.write(Last fifteen days of the month)
+// }
+
+// let date = new Date()
+// document.write(Current date :${date}<br>Elapset milisecond since: 1 jan 1970 :${date.getTime()}<br> Elapset minutes since: janury 1,1970 : ${date.getTime()/1000})
+
+// let date = new Date().getHours()
+// if(date <= 11){
+//     document.write(alert("it is Am"))
+// }else{
+//     document.write(alert("it is PM"))
+// }
+
+// let date =  new Date("13 dec 20020")
+// document.write(later Date: ${date})
+
+// let date = new Date("11 Mar 2024").getTime()
+// let date1 = new Date().getTime()
+// let final = (date1 - date)/ (1000 *60*60*24)
+// document.write(`${Math.floor(final)} days have passed since 11 Mar 2024`)
+
+// let date = new Date("1-1-2015")
+// let date2= new Date("5-1-2015")
+// let minus= (date - date2)
+// let sf = Math.floor(minus/ 1000);
+// document.write(`on refrence date ${date2} ${sf} seconds had passed since begining of 2015`)
+
+// let date = new Date()
+// let date2 = date.getHours()
+// date.setHours(date2+1)
+// document.write(`current date and time: ${new Date()}<br>updated date and time (1 hour ahead ) ${date}`)
+
+// let date = new Date()
+// let date2 = date.getFullYear()
+// date.setFullYear(date2-100)
+// document.write(`current date and time: ${new Date()}<br>${date}`)
+
+
+// var date = new Date().getTime()
+// var dob = new Date(prompt("Ente Date of Birth")).getTime()
+// var age = Math.floor((date-dob)/(1000*60*60*24*365))
+// let birth = new Date().getFullYear()
+// let final = age - birth
+// document.write("Your age is" + age +"<br>" + "Yor birth year is " +final ) 
+
+// let pro1 = prompt("Enter Your Name ")
+// let pro2 = +prompt("Enter Current unit")
+// let date = new Date()
+// let months = ["January", "February", "March", "April", "May", "June",
+//     "July", "August", "September", "October", "November", "December"];
+// let month = months[date.getMonth()]
+// let charge = 14;
+// let net = pro2 * 14;
+// let due = net + 500
+// document.write(`
+// <table border="1">
+//     <th><h1>Ke Elictric Bill</h1> <br></th>
+//   <tr>
+//   <td>  Customer Name: ${pro1}<br></td>
+//   </tr>
+//     <tr><td>Month: ${month}</td></tr>
+//    <tr><td>Number of Unit: ${pro2}<br></td></tr>
+//  <tr><td>Per Unit Charges: ${charge}<br></td></tr>
+//    <tr><td> Net Amount PayBill (Whithin Due Date): ${net}<br></td></tr>
+//  <tr><td>Late Fess Charges: 500<br></td></tr>
+//  <tr><td>Gross Amount Paybill After Due Date: ${due}</td></tr>
+// </table>
