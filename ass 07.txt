@@ -1,0 +1,125 @@
+//-----------------------------Assingnment # 07---------------------//
+
+// function date(){
+//     document.write(new Date())
+// }
+// date()
+
+// let pro1 = prompt("Enter First Name")
+// let pro2 = prompt("Enter First Name")
+
+// function names(name1, name2){
+//     document.write(name1,name2)
+// }
+// names(pro1,pro2)
+
+// let pro1 = prompt("Enter First Name")
+// let pro2 = prompt("Enter First Name")
+
+// function sum(no1,no2){
+//     document.write(no1 + no2)
+// }
+// sum(pro1,pro2)
+
+// let pro1 = prompt("Enter First Name")
+// let pro2 = prompt("Enter First Name")
+// let pro3 = prompt("Enter First Name")
+
+// function calculate(name1,name2,opreter){
+//     document.write(name1 + opreter + name2)
+// }
+// calculate(pro1,pro2,pro3)
+ 
+// function argu(num){
+//     document.write(num**num)
+// }
+// argu()
+
+// let pro = prompt("Enter Any Number")
+// function factorial(num){
+//    let ans = 1;
+//     for(let i = 5; i > 0; i-- ){
+//     ans*= i 
+//     }
+//    document.write(Ans: ${ans})
+// }
+// factorial(pro)
+
+// let pro1 = prompt("Enter First Name")
+// let pro2 = prompt("Enter First Name")
+// function count(start,end){
+//     for(let i = start; i <= end; i++){
+//         document.write(${i} <br>)
+//     }
+// }
+// count(pro1,pro2)
+
+
+// function hypothenyes( Base,prpen){
+// function square(num){
+//     return num*num
+// }
+// let calculate = square(Base) + square(prpen)
+// return Math.sqrt(calculate)
+    
+// }
+// hypothenyes(4,5)
+
+// let width = 5;
+// let height = 6;
+// function area(length, height){
+//     return num*num
+// }
+// area(width,height)
+
+// let pro = prompt("ENTER WORD")
+// function palindrom(word){
+//     let arry = word.split("").reverse().join("")
+//    return  word === arry
+// }
+// let result = palindrom(pro);
+
+// if (result) {
+//     document.write(pro + " is a Palindrome");
+// } else {
+//     document.write(pro + " is NOT a Palindrome");
+// }
+
+// let pro = prompt("ENTER SENTENC")
+// function capitalize(Sentence){
+//     return Sentence.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")
+// }
+// let result = capitalize(pro)
+// document.write(result)
+
+// let pro = prompt("ENTER SENTENCE")
+// function longest(sentence){
+//    let words = sentence.split(" ")
+// let largest  = "";
+// words.forEach(word =>{
+//     if(word.length > largest.length){
+//         largest = word
+//     }
+        
+// })
+// return largest;
+
+
+// }
+// let result = longest(pro)
+// document.write(result)
+
+
+// function sameword(str,lettre){
+//     let count = 0;
+
+//     for(let i=0 ; i < str.length; i++){
+//         if(str[i].toLowerCase() === lettre.toLowerCase()){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// let result = sameword("JSResourceS.com", "s")
+// document.write(result)
+
