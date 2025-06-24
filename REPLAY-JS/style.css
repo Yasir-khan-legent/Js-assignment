@@ -1,0 +1,126 @@
+/* Reset Defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  padding: 40px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+/* Input */
+input {
+  padding: 12px;
+  width: 80%;
+  max-width: 450px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1e2a38;
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px #00c6ff;
+  outline: none;
+  transition: 0.3s;
+}
+input:focus {
+  box-shadow: 0 0 10px #00c6ff, 0 0 5px #0072ff;
+}
+
+/* Buttons */
+button {
+  padding: 10px 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+
+/* Task List */
+ul {
+  list-style: none;
+  width: 90%;
+  max-width: 550px;
+  margin-top: 30px;
+  padding: 0;
+}
+
+ul li {
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: #fff;
+  padding: 14px 12px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+  animation: fadeIn 0.5s ease;
+}
+
+/* Text Wrapping */
+ul li p {
+  margin: 0;
+  flex: 1;
+  word-break: break-word;
+  padding-right: 10px;
+}
+
+/* Buttons in li */
+ul li button {
+  background-color: #0072ff;
+  color: #fff;
+  font-weight: 500;
+  padding: 6px 10px;
+  margin-left: 8px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+ul li button:hover {
+  background-color: #00c6ff;
+}
+
+/* Fade Animation */
+@keyframes fadeIn {
+  from {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  input {
+    width: 100%;
+  }
+  ul li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  ul li button {
+    margin-top: 8px;
+    margin-left: 0;
+  }
+}
